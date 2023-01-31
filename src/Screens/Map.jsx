@@ -15,6 +15,7 @@ const Map = () => {
         scale: 2,
       };
   return (
+    
     <MapView
     ref={mapRef}
     style={{flex:1}}

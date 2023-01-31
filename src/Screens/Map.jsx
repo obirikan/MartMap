@@ -2,6 +2,7 @@ import { StyleSheet, Text, View,SafeAreaView } from 'react-native'
 import React,{useRef} from 'react'
 import MapViewDirections from "react-native-maps-directions";
 import MapView, { Marker, PROVIDER_GOOGLE, Polygon } from "react-native-maps";
+import { Ionicons,FontAwesome5,MaterialCommunityIcons,Foundation,AntDesign } from '@expo/vector-icons';
 
 const Map = () => {
     const mapRef = useRef();
@@ -20,7 +21,7 @@ const Map = () => {
     showsUserLocation={true}
     provider={PROVIDER_GOOGLE}
     showsPointsOfInterest={false}
-    showsScale={true}
+    showsScale={false}
   >
       <Marker
           draggable
@@ -34,7 +35,9 @@ const Map = () => {
        description = {
         "Ygn-Mdy highway, Pyinmana"
        }
-      ></Marker>
+      >
+                                            <FontAwesome5 name="store" size={34} color="blue" />
+      </Marker>
   </MapView>
   )
 }

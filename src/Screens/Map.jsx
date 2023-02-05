@@ -41,21 +41,23 @@ const Map = () => {
     showsScale={false}
   >
     {data.map((dat)=>(
-      <Marker
-          draggable
-       style = {{ width:60, height:40 }}
-       coordinate = {{
-        latitude : 19.7545620,
-        longitude : 96.203392,
-       }}
-       onDragEnd = { e => alert(JSON.stringify(e.nativeEvent.coordinate))}
-       title={"Linn IT Solution Co.,Ltd"}
-       description = {
-        "Ygn-Mdy highway, Pyinmana"
-       }
-      >
-                                            <FontAwesome5 name="store" size={34} color="blue" />
-      </Marker>
+<Marker
+draggable
+style = {{ width:60, height:40 }}
+coordinate = {{
+latitude : dat.latitude,
+longitude : dat.longitude,
+}}
+onDragEnd = { e => alert(JSON.stringify(e.nativeEvent.coordinate))}
+title={"Linn IT Solution Co.,Ltd"}
+description = {
+"Ygn-Mdy highway, Pyinmana"
+}
+>
+                  <FontAwesome5 name="store" size={34} color="blue" />
+</Marker>
+    ))}
+
 
   </MapView>
   )

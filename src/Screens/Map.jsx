@@ -8,16 +8,16 @@ const Map = () => {
     const mapRef = useRef();
     const data=[
       {
-        latitude : 19.7545620,
-        longitude : 96.203399,
+        latitude : 7.9527706 ,
+        longitude : -1.0307118,
       },
       {
-        latitude : 19.7545620,
-        longitude : 96.202292,
+        latitude : 9.556552,
+        longitude : -0.8615559,
       }, 
       {
-        latitude : 18.7545620,
-        longitude : 96.201392,
+        latitude : 9.556552,
+        longitude : -1.8615559,
       },
       {
         latitude : 19.7245621,

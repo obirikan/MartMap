@@ -12,8 +12,8 @@ const Map = () => {
         longitude : -1.0307118,
       },
       {
-        latitude : 9.556552,
-        longitude : -0.8615559,
+        latitude :9.556552,
+        longitude :-0.8615559,
       }, 
       {
         latitude : 9.556552,

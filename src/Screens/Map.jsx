@@ -41,6 +41,7 @@ const Map = () => {
     showsScale={false}
   >
     {data.map((dat)=>(
+
 <Marker
 draggable
 style = {{ width:60, height:40 }}
@@ -57,6 +58,7 @@ description = {
                   <FontAwesome5 name="store" size={34} color="blue" />
 </Marker>
     ))}
+
 
 
   </MapView>

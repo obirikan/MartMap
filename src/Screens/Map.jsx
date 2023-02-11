@@ -3,7 +3,7 @@ import React,{useRef} from 'react'
 import MapViewDirections from "react-native-maps-directions";
 import MapView, { Marker, PROVIDER_GOOGLE, Polygon } from "react-native-maps";
 import { Ionicons,FontAwesome5,MaterialCommunityIcons,Foundation,AntDesign } from '@expo/vector-icons';
-
+//random lats and long
 const Map = () => {
     const mapRef = useRef();
     const data=[
